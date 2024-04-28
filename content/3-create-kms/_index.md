@@ -13,14 +13,14 @@ pre : " <b> 3. </b> "
  - Find **KMS**
  - Select **Key Management Service**
 
-![create kms](/images/3.create-kms/0001.png?width=90pc)
+![create kms](/aws-fcj-workshop02/images/3.create-kms/0001.png?width=90pc)
 
 2. In the **KMS** interface
 
  - Select **Customer managed keys**
  - Select **Create**
 
-![create kms](/images/3.create-kms/0002.png?width=90pc)
+![create kms](/aws-fcj-workshop02/images/3.create-kms/0002.png?width=90pc)
 
 
 3. In the **Configure key** section
@@ -29,7 +29,7 @@ pre : " <b> 3. </b> "
  - **Key usage** select **Encrypt and decrypt**
  - Click **Next**
 
-![create kms](/images/3.create-kms/0003.png?width=90pc)
+![create kms](/aws-fcj-workshop02/images/3.create-kms/0003.png?width=90pc)
 
 4. In the **Add lables** section
 
@@ -38,11 +38,11 @@ You can name it differently as you like!
 {{% /notice %}}
  - **Alias** import **```kms-key-encrypt-decrypt```**
 
-![create kms](/images/3.create-kms/0004.png?width=90pc)
+![create kms](/aws-fcj-workshop02/images/3.create-kms/0004.png?width=90pc)
 
 5. Next step, scroll down and press **Next**
 
-![create kms](/images/3.create-kms/0005.png?width=90pc)
+![create kms](/aws-fcj-workshop02/images/3.create-kms/0005.png?width=90pc)
 
 6. In the **Define key administrative permissions** section
 
@@ -51,7 +51,7 @@ You can name it differently as you like!
  - **Key deletion** check the line **Allow key administrators to delete this key**
  - Click **Next**
 
-![create kms](/images/3.create-kms/0006.png?width=90pc)
+![create kms](/aws-fcj-workshop02/images/3.create-kms/0006.png?width=90pc)
 
 7. In the **Define key usage permissions** section
 
@@ -59,15 +59,15 @@ You can name it differently as you like!
  - Select **kms-key-role**
  - Click **Next**
 
-![create kms](/images/3.create-kms/0007.png?width=90pc)
+![create kms](/aws-fcj-workshop02/images/3.create-kms/0007.png?width=90pc)
 
 8. Next step we scroll down and press **Finish**
 
-![create kms](/images/3.create-kms/0008.png?width=90pc)
+![create kms](/aws-fcj-workshop02/images/3.create-kms/0008.png?width=90pc)
 
 9. Notification of successful creation
 
-![create kms](/images/3.create-kms/0010.png?width=90pc)
+![create kms](/aws-fcj-workshop02/images/3.create-kms/0010.png?width=90pc)
 
 
 {{% notice warning %}}
@@ -81,18 +81,18 @@ Auto-key rotation in AWS KMS is a feature that helps you automatically change yo
 
  - Select the newly created Key
 
-![create kms](/images/3.create-kms/0011.png?width=90pc)
+![create kms](/aws-fcj-workshop02/images/3.create-kms/0011.png?width=90pc)
 
 11. Next
 
  - Select **Key rotation**
  - Select **Edit**
 
-![create kms](/images/3.create-kms/0012.png?width=90pc)
+![create kms](/aws-fcj-workshop02/images/3.create-kms/0012.png?width=90pc)
 
 12. In the **Edit automaton key rotation** section
 
  - Select **Ebale**
  - In the **Rotation period (in days)** section, you can customize how many days to automatically change your encryption key.
 
-![create kms](/images/3.create-kms/0013.png?width=90pc)
+![create kms](/aws-fcj-workshop02/images/3.create-kms/0013.png?width=90pc)

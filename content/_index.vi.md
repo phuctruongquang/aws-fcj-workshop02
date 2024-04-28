@@ -11,7 +11,7 @@ chapter : false
 
 Dưới đây là sơ đồ mã hóa dữ liệu **S3 Object** bằng **Key Management Service** (KMS), ghi lại nhật ký bằng **Amazon CloudTrail** và truy xuất dữ liệu bằng **Amazon Athena. Bạn có thể tham khảo:
 
-![introduce](/images/1.introduce/workshop02-introduce.png?width=90pc)
+![introduce](/aws-fcj-workshop02/images/1.introduce/workshop02-introduce.png?width=90pc)
 
 
 #### Nội dung

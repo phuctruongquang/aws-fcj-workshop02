@@ -12,20 +12,20 @@ pre : " <b> 2.1 </b> "
    - Tìm **IAM**
    - Chọn **IAM**
 
-![create role](/images/2.create-role-user/2.1create-role/0001.png?width=90pc)
+![create role](/aws-fcj-workshop02/images/2.create-role-user/2.1create-role/0001.png?width=90pc)
 
 2. Trong giao diện **IAM**
 
    - Chọn **Policies**
    - Chọn **Create policy**
 
-![create role](/images/2.create-role-user/2.1create-role/0002.png?width=90pc)
+![create role](/aws-fcj-workshop02/images/2.create-role-user/2.1create-role/0002.png?width=90pc)
 
 3. Trong phần **Specify permissions**
 
    - Chọn **JSON** xóa đoạn mã cũ và sao chép đoạn mã mới ở dưới vào
 
-![create role](/images/2.create-role-user/2.1create-role/0003.png?width=90pc)
+![create role](/aws-fcj-workshop02/images/2.create-role-user/2.1create-role/0003.png?width=90pc)
 
 {{% notice warning %}}
 Ở đoạn policy này sẽ cấp quyền cho từng chức năng ở trong bài lab này, bạn có thể tùy chỉnh phân quyền ở đoạn policy này. Đoạn mã này đang phân quyền cho Region US East (Virginia) nên phần này sẽ là "aws:RequestedRegion": "us-east-1" (Nếu bạn đang ở Region khác thì nên chỉnh sửa lại từng "aws:RequestedRegion")
@@ -190,7 +190,7 @@ pre : " <b> 2.1 </b> "
 
 4. Sau khi hoàn tất bước ở trên, chúng ta kéo xuống cuối trang và ấn **Next**
 
-![create role](/images/2.create-role-user/2.1create-role/0004.png?width=90pc)
+![create role](/aws-fcj-workshop02/images/2.create-role-user/2.1create-role/0004.png?width=90pc)
 
 5. Trong phần **Review and create**
 
@@ -200,15 +200,15 @@ Bạn có thể tự đặt tên khác theo ý của các bạn nhé!
 
    - **Policy name** nhập **```kms-key-policy```**
 
-![create role](/images/2.create-role-user/2.1create-role/0005.png?width=90pc)
+![create role](/aws-fcj-workshop02/images/2.create-role-user/2.1create-role/0005.png?width=90pc)
 
 6. Sau khi nhập Policy name chúng ta kéo xuống cuối trang và ấn **Create policy**
   
-![create role](/images/2.create-role-user/2.1create-role/0006.png?width=90pc)
+![create role](/aws-fcj-workshop02/images/2.create-role-user/2.1create-role/0006.png?width=90pc)
 
 7. Thông báo tạo **Policy** thành công
 
-![create role](/images/2.create-role-user/2.1create-role/0007.png?width=90pc)
+![create role](/aws-fcj-workshop02/images/2.create-role-user/2.1create-role/0007.png?width=90pc)
 
 #### Bước tiếp theo chúng ta sẽ tạo Role
 
@@ -217,13 +217,13 @@ Bạn có thể tự đặt tên khác theo ý của các bạn nhé!
    - Chọn **Roles**
    - Chọn **Create role**
 
-![create role](/images/2.create-role-user/2.1create-role/0008.png?width=90pc)
+![create role](/aws-fcj-workshop02/images/2.create-role-user/2.1create-role/0008.png?width=90pc)
 
 9. Trong phần **Select trusted entity**
 
    - Chọn **AWS service**
 
-![create role](/images/2.create-role-user/2.1create-role/0009.png?width=90pc)
+![create role](/aws-fcj-workshop02/images/2.create-role-user/2.1create-role/0009.png?width=90pc)
 
 10. Kéo xuống phần **Use case**
 
@@ -231,7 +231,7 @@ Bạn có thể tự đặt tên khác theo ý của các bạn nhé!
    - Phần **Use case** chọn **S3**
    - Và ấn **Next**
 
-![create role](/images/2.create-role-user/2.1create-role/0010.png?width=90pc)
+![create role](/aws-fcj-workshop02/images/2.create-role-user/2.1create-role/0010.png?width=90pc)
 
 11. Trong phần **Add permissions**
 
@@ -239,7 +239,7 @@ Bạn có thể tự đặt tên khác theo ý của các bạn nhé!
    - Tích chọn vào policy vừa tạo
    - Ấn **Next**
 
-![create role](/images/2.create-role-user/2.1create-role/0011.png?width=90pc)
+![create role](/aws-fcj-workshop02/images/2.create-role-user/2.1create-role/0011.png?width=90pc)
 
 12. Trong phần **Name, review, and create**
 
@@ -249,12 +249,12 @@ Bạn có thể tự đặt tên khác theo ý của các bạn nhé!
 
    - **Role name** nhập **```kms-key-role```**
 
-![create role](/images/2.create-role-user/2.1create-role/0012.png?width=90pc)
+![create role](/aws-fcj-workshop02/images/2.create-role-user/2.1create-role/0012.png?width=90pc)
 
 13. Kéo xuống dưới và ấn **Create role**
 
-![create role](/images/2.create-role-user/2.1create-role/0013.png?width=90pc)
+![create role](/aws-fcj-workshop02/images/2.create-role-user/2.1create-role/0013.png?width=90pc)
 
 14. Thông báo tạo role thành công
 
-![create role](/images/2.create-role-user/2.1create-role/0014.png?width=90pc)
+![create role](/aws-fcj-workshop02/images/2.create-role-user/2.1create-role/0014.png?width=90pc)

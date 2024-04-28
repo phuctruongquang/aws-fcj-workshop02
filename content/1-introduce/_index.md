@@ -8,7 +8,7 @@ pre : " <b> 1. </b> "
 
 #### About AWS Key Management Service (KMS)
 
-![kms](/images/1.introduce/0001.png?width=150)
+![kms](/aws-fcj-workshop02/images/1.introduce/0001.png?width=150)
 
 KMS stands for **Key Management Service**, this is a service used to create and manage keys. AWS ensures your keys are completely securely managed. That means even AWS engineers cannot know your key.
 
@@ -31,7 +31,7 @@ Additional reference links [AWS Key Management Service](https://docs.aws.amazon.
 
 #### Introducing Amazon S3
 
-![s3](/images/1.introduce/0002.png?width=10pc)
+![s3](/aws-fcj-workshop02/images/1.introduce/0002.png?width=10pc)
 
 **Amazon Simple Storage Service** (Amazon S3) is an object storage service that provides industry-leading scalability, data availability, security, and performance. Customers of all sizes and industries can store and protect data of any size for virtually all use cases, such as data lakes, cloud-based applications, and cloud-based applications. mobile. With cost-effective storage layers and easy-to-use management features, you can optimize costs, organize data, and configure access controls fine-tuned to meet your requirements specific to business, organization and compliance.
 
@@ -47,7 +47,7 @@ Additional reference links [Amazon S3](https://docs.aws.amazon.com/AmazonS3/late
 
 #### Introducing AWS CloudTrail
 
-![cloudtrail](/images/1.introduce/0003.png?width=10pc)
+![cloudtrail](/aws-fcj-workshop02/images/1.introduce/0003.png?width=10pc)
 
 **AWS CloudTrail** is a service that enables management, operational testing, and risk assessment of your AWS account. With CloudTrail, you can continuously log, monitor, and maintain account activity related to activities occurring on your AWS infrastructure.
 
@@ -69,7 +69,7 @@ Introducing [AWS CloudTrail](https://docs.aws.amazon.com/awscloudtrail/latest/us
 
 #### Introducing Amazon Athena
 
-![athena](/images/1.introduce/0004.png?width=10pc)
+![athena](/aws-fcj-workshop02/images/1.introduce/0004.png?width=10pc)
 
 **Amazon Athena** is an interactive data query service on Amazon S3. It allows you to perform SQL queries on data stored in files stored in S3 without having to move or copy data to a traditional database. Athena makes it easy to query and analyze big data stored in S3 without needing to deploy or manage a database.
 

@@ -13,20 +13,20 @@ pre : " <b> 2.1 </b> "
    - Search **IAM**
    - Select **IAM**
 
-![create role](/images/2.create-role-user/2.1create-role/0001.png?width=90pc)
+![create role](/aws-fcj-workshop02/images/2.create-role-user/2.1create-role/0001.png?width=90pc)
 
 2. In the interface **IAM**
 
    - Select **Policies**
    - Select **Create policy**
 
-![create role](/images/2.create-role-user/2.1create-role/0002.png?width=90pc)
+![create role](/aws-fcj-workshop02/images/2.create-role-user/2.1create-role/0002.png?width=90pc)
 
 3. In the interface **Specify permissions**
 
    - Select **JSON** delete the old code and copy the new code below
 
-![create role](/images/2.create-role-user/2.1create-role/0003.png?width=90pc)
+![create role](/aws-fcj-workshop02/images/2.create-role-user/2.1create-role/0003.png?width=90pc)
 
 {{% notice warning %}}
 This policy will grant permissions to each function in this lab. You can customize the permissions in this policy. This code is delegating authority to Region US East (Virginia), so this part will be "aws:RequestedRegion": "us-east-1" (If you are in another Region, you should edit each "aws:RequestedRegion")
@@ -191,7 +191,7 @@ This policy will grant permissions to each function in this lab. You can customi
 
 4. After completing the above step, we scroll down to the bottom of the page and click **Next**
 
-![create role](/images/2.create-role-user/2.1create-role/0004.png?width=90pc)
+![create role](/aws-fcj-workshop02/images/2.create-role-user/2.1create-role/0004.png?width=90pc)
 
 5. In section **Review and create**
 
@@ -201,15 +201,15 @@ You can name it differently as you like!
 
    - **Policy name** import **```kms-key-policy```**
 
-![create role](/images/2.create-role-user/2.1create-role/0005.png?width=90pc)
+![create role](/aws-fcj-workshop02/images/2.create-role-user/2.1create-role/0005.png?width=90pc)
 
 6. After entering the Policy name, scroll down to the bottom of the page and click **Create policy**
   
-![create role](/images/2.create-role-user/2.1create-role/0006.png?width=90pc)
+![create role](/aws-fcj-workshop02/images/2.create-role-user/2.1create-role/0006.png?width=90pc)
 
 7. Notice of successful creation of **Policy**
 
-![create role](/images/2.create-role-user/2.1create-role/0007.png?width=90pc)
+![create role](/aws-fcj-workshop02/images/2.create-role-user/2.1create-role/0007.png?width=90pc)
 
 #### Next step we will create Role
 
@@ -218,13 +218,13 @@ You can name it differently as you like!
    - Select **Roles**
    - Select **Create role**
 
-![create role](/images/2.create-role-user/2.1create-role/0008.png?width=90pc)
+![create role](/aws-fcj-workshop02/images/2.create-role-user/2.1create-role/0008.png?width=90pc)
 
 9. In section **Select trusted entity**
 
    - Select **AWS service**
 
-![create role](/images/2.create-role-user/2.1create-role/0009.png?width=90pc)
+![create role](/aws-fcj-workshop02/images/2.create-role-user/2.1create-role/0009.png?width=90pc)
 
 10. Scroll down to the section **Use case**
 
@@ -232,7 +232,7 @@ You can name it differently as you like!
  - In the **Use case** section, select **S3**
  - And press **Next**
 
-![create role](/images/2.create-role-user/2.1create-role/0010.png?width=90pc)
+![create role](/aws-fcj-workshop02/images/2.create-role-user/2.1create-role/0010.png?width=90pc)
 
 11. In the **Add permissions** section
 
@@ -240,7 +240,7 @@ You can name it differently as you like!
  - Select the policy you just created
  - Click **Next**
 
-![create role](/images/2.create-role-user/2.1create-role/0011.png?width=90pc)
+![create role](/aws-fcj-workshop02/images/2.create-role-user/2.1create-role/0011.png?width=90pc)
 
 12. In the **Name, review, and create** section
 
@@ -250,14 +250,14 @@ You can name it differently as you like!
 
    - **Role name** import **```kms-key-role```**
 
-![create role](/images/2.create-role-user/2.1create-role/0012.png?width=90pc)
+![create role](/aws-fcj-workshop02/images/2.create-role-user/2.1create-role/0012.png?width=90pc)
 
 13. Scroll down and press **Create role**
 
-![create role](/images/2.create-role-user/2.1create-role/0013.png?width=90pc)
+![create role](/aws-fcj-workshop02/images/2.create-role-user/2.1create-role/0013.png?width=90pc)
 
 14. Notice of successful role creation
 
-![create role](/images/2.create-role-user/2.1create-role/0014.png?width=90pc)
+![create role](/aws-fcj-workshop02/images/2.create-role-user/2.1create-role/0014.png?width=90pc)
 
 

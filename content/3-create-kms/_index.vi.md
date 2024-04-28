@@ -13,14 +13,14 @@ pre : " <b> 3. </b> "
    - Tìm **KMS**
    - Chọn **Key Management Service**
 
-![create kms](/images/3.create-kms/0001.png?width=90pc)
+![create kms](/aws-fcj-workshop02/images/3.create-kms/0001.png?width=90pc)
 
 2. Trong giao diện **KMS**
 
    - Chọn **Customer managed keys**
    - Chọn **Create**
   
-![create kms](/images/3.create-kms/0002.png?width=90pc)
+![create kms](/aws-fcj-workshop02/images/3.create-kms/0002.png?width=90pc)
 
 
 3. Trong phần **Configure key**
@@ -29,7 +29,7 @@ pre : " <b> 3. </b> "
    - **Key usage** chọn **Encrypt and decrypt**
    - Ấn **Next**
   
-![create kms](/images/3.create-kms/0003.png?width=90pc)
+![create kms](/aws-fcj-workshop02/images/3.create-kms/0003.png?width=90pc)
 
 4. Trong phần **Add lables**
 
@@ -38,11 +38,11 @@ Bạn có thể tự đặt tên khác theo ý của các bạn nhé!
 {{% /notice %}}
     - **Alias** nhập **```kms-key-encrypt-decrypt```**
 
-![create kms](/images/3.create-kms/0004.png?width=90pc)
+![create kms](/aws-fcj-workshop02/images/3.create-kms/0004.png?width=90pc)
 
 5. Bước tiếp theo chúng ra kéo xuống và ấn **Next**
 
-![create kms](/images/3.create-kms/0005.png?width=90pc)
+![create kms](/aws-fcj-workshop02/images/3.create-kms/0005.png?width=90pc)
 
 6. Trong phần **Define key administrative permissions**
 
@@ -51,7 +51,7 @@ Bạn có thể tự đặt tên khác theo ý của các bạn nhé!
    - **Key deletion** tích chọn dòng **Allow key administrators to delete this key**
    - Ấn **Next**
 
-![create kms](/images/3.create-kms/0006.png?width=90pc)
+![create kms](/aws-fcj-workshop02/images/3.create-kms/0006.png?width=90pc)
 
 7. Trong phần **Define key usage permissions**
 
@@ -59,15 +59,15 @@ Bạn có thể tự đặt tên khác theo ý của các bạn nhé!
    - Tích chọn **kms-key-role**
    - Ấn **Next**
 
-![create kms](/images/3.create-kms/0007.png?width=90pc)
+![create kms](/aws-fcj-workshop02/images/3.create-kms/0007.png?width=90pc)
 
 8. Bước tiếp theo chúng ta kéo xuống và ấn **Finish**
 
-![create kms](/images/3.create-kms/0008.png?width=90pc)
+![create kms](/aws-fcj-workshop02/images/3.create-kms/0008.png?width=90pc)
 
 9. Thông báo tạo thành công
 
-![create kms](/images/3.create-kms/0010.png?width=90pc)
+![create kms](/aws-fcj-workshop02/images/3.create-kms/0010.png?width=90pc)
 
 
 {{% notice warning %}}
@@ -81,19 +81,19 @@ Tự động xoay khóa trong AWS KMS là một tính năng giúp bạn tự đ�
 
     - Chọn vào Key vừa mới tạo
 
-![create kms](/images/3.create-kms/0011.png?width=90pc)
+![create kms](/aws-fcj-workshop02/images/3.create-kms/0011.png?width=90pc)
 
 11. Tiếp theo
 
     - Chọn **Key rotation**
     - Chọn **Edit**
 
-![create kms](/images/3.create-kms/0012.png?width=90pc)
+![create kms](/aws-fcj-workshop02/images/3.create-kms/0012.png?width=90pc)
 
 12. Trong phần **Edit automaitic key rotation**
 
     - Chọn **Ebale**
     - Phần **Rotation period (in days)** bạn có thể tùy chỉnh tự động thay đổi khóa mã hóa của bạn bạn sau bao nhiêu ngày 1 lần nhé.
 
-![create kms](/images/3.create-kms/0013.png?width=90pc)
+![create kms](/aws-fcj-workshop02/images/3.create-kms/0013.png?width=90pc)
 

@@ -11,7 +11,7 @@ chapter : false
 
 Below is a diagram for encrypting **S3 Object** data using **Key Management Service** (KMS), capturing logs using **Amazon CloudTrail**, and retrieving data using **Amazon Athena**. You can consult:
 
-![introduce](/images/1.introduce/workshop02-introduce.png?width=90pc)
+![introduce](/aws-fcj-workshop02/images/1.introduce/workshop02-introduce.png?width=90pc)
 
 
 #### Content
