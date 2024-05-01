@@ -8,11 +8,7 @@ pre : " <b> 4.2 </b> "
 
 #### Upload data to S3
 
-
- - This is where you can upload the Source
-
-
-
+You download the data at this link and extract it to perform the next steps [Data to post](https://github.com/phuctruongquang/aws-fcj-workshop02/blob/main/DATA.rar )
 
 1. Access **AWS Management Console**
 

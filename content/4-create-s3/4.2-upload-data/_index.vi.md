@@ -8,10 +8,7 @@ pre : " <b> 4.2 </b> "
 
 #### Đăng tải dữ liệu lên S3
 
-    - Chỗ này để tải Source lên
-
-
-
+Bạn tải dữ liệu ở đường dẫn này và giải nén ra để thực hiện các bước tiếp theo [Dữ liệu để đăng tải](https://github.com/phuctruongquang/aws-fcj-workshop02/blob/main/DATA.rar)
 
 1. Truy cập **AWS Management Console**
 
