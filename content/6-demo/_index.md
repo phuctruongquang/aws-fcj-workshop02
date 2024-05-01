@@ -106,7 +106,7 @@ In this section, a URL will be created to share data with everyone.
 
 Select **Share with a presigned URL**
 
-![demo](/images/6.demo/0012.png?width=90pc)
+![demo](/aws-fcj-workshop02/images/6.demo/0012.png?width=90pc)
 
 16. Next step
 

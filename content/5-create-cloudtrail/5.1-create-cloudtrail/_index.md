@@ -67,7 +67,7 @@ You can name it differently as you like!
 
 9. Next step press **Continue**
 
-![create cloudtrai](/images/5.create-cloudtrail/5.1create-cloudtrail/0009.png?width=90pc)
+![create cloudtrai](/aws-fcj-workshop02/images/5.create-cloudtrail/5.1create-cloudtrail/0009.png?width=90pc)
 
 10. In the **Data event: S3** section
 
